@@ -1,1 +1,1 @@
-g++ -shared -fPIC -o aludll.h aludll.cpp | compile_test
+g++ -shared -fPIC -o aludll.h aludll.cpp | tee compile_test.txt
