@@ -1,0 +1,1 @@
+g++ -shared -fPIC -o aludll.h aludll.cpp
