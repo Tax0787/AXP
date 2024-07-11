@@ -1,0 +1,1108 @@
+In file included from axpaludlh.h:4,
+                 from aludll.h:5,
+                 from aludll.cpp:1:
+axpaludlhh.h:21:1: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+   21 | charr5 empty_charr5;
+      | ^~~~~~
+      | charrx
+axpaludlhh.h:22:5: error: structured binding declaration cannot have type ‘char’
+   22 | char[] empty_charr[1];
+      |     ^~
+axpaludlhh.h:22:5: note: type must be cv-qualified ‘auto’ or reference to cv-qualified ‘auto’
+axpaludlhh.h:22:5: error: empty structured binding declaration
+axpaludlhh.h:22:8: error: expected initializer before ‘empty_charr’
+   22 | char[] empty_charr[1];
+      |        ^~~~~~~~~~~
+axpaludlhh.h:9:25: error: conflicting declaration ‘typedef char ab [3]’
+    9 | #define TEMPJOINN(a, b) ab
+      |                         ^~
+axpaludlhh.h:10:32: note: in expansion of macro ‘TEMPJOINN’
+   10 | #define CHARRX(x) typedef char TEMPJOINN(charr, x)[x]
+      |                                ^~~~~~~~~
+axpaludlhh.h:15:16: note: in expansion of macro ‘CHARRX’
+   15 | #define charrx CHARRX
+      |                ^~~~~~
+axpaludlhh.h:25:1: note: in expansion of macro ‘charrx’
+   25 | charrx(3);
+      | ^~~~~~
+axpaludlhh.h:9:25: note: previous declaration as ‘typedef char ab [2]’
+    9 | #define TEMPJOINN(a, b) ab
+      |                         ^~
+axpaludlhh.h:10:32: note: in expansion of macro ‘TEMPJOINN’
+   10 | #define CHARRX(x) typedef char TEMPJOINN(charr, x)[x]
+      |                                ^~~~~~~~~
+axpaludlhh.h:15:16: note: in expansion of macro ‘CHARRX’
+   15 | #define charrx CHARRX
+      |                ^~~~~~
+axpaludlhh.h:24:1: note: in expansion of macro ‘charrx’
+   24 | charrx(2);
+      | ^~~~~~
+axpaludlhh.h:9:25: error: conflicting declaration ‘typedef char ab [4]’
+    9 | #define TEMPJOINN(a, b) ab
+      |                         ^~
+axpaludlhh.h:10:32: note: in expansion of macro ‘TEMPJOINN’
+   10 | #define CHARRX(x) typedef char TEMPJOINN(charr, x)[x]
+      |                                ^~~~~~~~~
+axpaludlhh.h:15:16: note: in expansion of macro ‘CHARRX’
+   15 | #define charrx CHARRX
+      |                ^~~~~~
+axpaludlhh.h:26:1: note: in expansion of macro ‘charrx’
+   26 | charrx(4);
+      | ^~~~~~
+axpaludlhh.h:9:25: note: previous declaration as ‘typedef char ab [2]’
+    9 | #define TEMPJOINN(a, b) ab
+      |                         ^~
+axpaludlhh.h:10:32: note: in expansion of macro ‘TEMPJOINN’
+   10 | #define CHARRX(x) typedef char TEMPJOINN(charr, x)[x]
+      |                                ^~~~~~~~~
+axpaludlhh.h:15:16: note: in expansion of macro ‘CHARRX’
+   15 | #define charrx CHARRX
+      |                ^~~~~~
+axpaludlhh.h:24:1: note: in expansion of macro ‘charrx’
+   24 | charrx(2);
+      | ^~~~~~
+axpaludlhh.h:9:25: error: conflicting declaration ‘typedef char ab [5]’
+    9 | #define TEMPJOINN(a, b) ab
+      |                         ^~
+axpaludlhh.h:10:32: note: in expansion of macro ‘TEMPJOINN’
+   10 | #define CHARRX(x) typedef char TEMPJOINN(charr, x)[x]
+      |                                ^~~~~~~~~
+axpaludlhh.h:15:16: note: in expansion of macro ‘CHARRX’
+   15 | #define charrx CHARRX
+      |                ^~~~~~
+axpaludlhh.h:27:1: note: in expansion of macro ‘charrx’
+   27 | charrx(5);
+      | ^~~~~~
+axpaludlhh.h:9:25: note: previous declaration as ‘typedef char ab [2]’
+    9 | #define TEMPJOINN(a, b) ab
+      |                         ^~
+axpaludlhh.h:10:32: note: in expansion of macro ‘TEMPJOINN’
+   10 | #define CHARRX(x) typedef char TEMPJOINN(charr, x)[x]
+      |                                ^~~~~~~~~
+axpaludlhh.h:15:16: note: in expansion of macro ‘CHARRX’
+   15 | #define charrx CHARRX
+      |                ^~~~~~
+axpaludlhh.h:24:1: note: in expansion of macro ‘charrx’
+   24 | charrx(2);
+      | ^~~~~~
+axpaludlhh.h:29:10: error: expected unqualified-id before ‘void’
+   29 | typedef (void*) ptr;
+      |          ^~~~
+axpaludlhh.h:29:10: error: expected ‘)’ before ‘void’
+   29 | typedef (void*) ptr;
+      |         ~^~~~
+      |          )
+axpaludlhh.h:31:16: error: typedef ‘gcsftype’ is initialized (use ‘decltype’ instead)
+   31 | typedef void *(gcsftype)(ptr, ptr, ptr);
+      |                ^~~~~~~~
+axpaludlhh.h:31:26: error: ‘ptr’ was not declared in this scope
+   31 | typedef void *(gcsftype)(ptr, ptr, ptr);
+      |                          ^~~
+axpaludlhh.h:31:31: error: ‘ptr’ was not declared in this scope
+   31 | typedef void *(gcsftype)(ptr, ptr, ptr);
+      |                               ^~~
+axpaludlhh.h:31:36: error: ‘ptr’ was not declared in this scope
+   31 | typedef void *(gcsftype)(ptr, ptr, ptr);
+      |                                    ^~~
+axpaludlhh.h:33:9: error: ‘ptr’ does not name a type
+   33 | typedef ptr gcstackv[5];
+      |         ^~~
+axpaludlhh.h:9:25: error: redeclaration of ‘char <unnamed union>::ab’
+    9 | #define TEMPJOINN(a, b) ab
+      |                         ^~
+axpaludlhh.h:11:22: note: in expansion of macro ‘TEMPJOINN’
+   11 | #define TYPEVAR(x) x TEMPJOINN(x, var)
+      |                      ^~~~~~~~~
+axpaludlhh.h:16:17: note: in expansion of macro ‘TYPEVAR’
+   16 | #define typevar TYPEVAR
+      |                 ^~~~~~~
+axpaludlhh.h:37:9: note: in expansion of macro ‘typevar’
+   37 |         typevar(char);
+      |         ^~~~~~~
+axpaludlhh.h:9:25: note: previous declaration ‘bool <unnamed union>::ab’
+    9 | #define TEMPJOINN(a, b) ab
+      |                         ^~
+axpaludlhh.h:11:22: note: in expansion of macro ‘TEMPJOINN’
+   11 | #define TYPEVAR(x) x TEMPJOINN(x, var)
+      |                      ^~~~~~~~~
+axpaludlhh.h:16:17: note: in expansion of macro ‘TYPEVAR’
+   16 | #define typevar TYPEVAR
+      |                 ^~~~~~~
+axpaludlhh.h:36:9: note: in expansion of macro ‘typevar’
+   36 |         typevar(bool);
+      |         ^~~~~~~
+axpaludlhh.h:38:17: error: ‘charr2’ does not name a type; did you mean ‘charrx’?
+   38 |         typevar(charr2);
+      |                 ^~~~~~
+axpaludlhh.h:11:20: note: in definition of macro ‘TYPEVAR’
+   11 | #define TYPEVAR(x) x TEMPJOINN(x, var)
+      |                    ^
+axpaludlhh.h:38:9: note: in expansion of macro ‘typevar’
+   38 |         typevar(charr2);
+      |         ^~~~~~~
+axpaludlhh.h:39:17: error: ‘charr3’ does not name a type; did you mean ‘charrx’?
+   39 |         typevar(charr3);
+      |                 ^~~~~~
+axpaludlhh.h:11:20: note: in definition of macro ‘TYPEVAR’
+   11 | #define TYPEVAR(x) x TEMPJOINN(x, var)
+      |                    ^
+axpaludlhh.h:39:9: note: in expansion of macro ‘typevar’
+   39 |         typevar(charr3);
+      |         ^~~~~~~
+axpaludlhh.h:40:17: error: ‘charr4’ does not name a type; did you mean ‘charrx’?
+   40 |         typevar(charr4);
+      |                 ^~~~~~
+axpaludlhh.h:11:20: note: in definition of macro ‘TYPEVAR’
+   11 | #define TYPEVAR(x) x TEMPJOINN(x, var)
+      |                    ^
+axpaludlhh.h:40:9: note: in expansion of macro ‘typevar’
+   40 |         typevar(charr4);
+      |         ^~~~~~~
+axpaludlhh.h:41:17: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+   41 |         typevar(charr5);
+      |                 ^~~~~~
+axpaludlhh.h:11:20: note: in definition of macro ‘TYPEVAR’
+   11 | #define TYPEVAR(x) x TEMPJOINN(x, var)
+      |                    ^
+axpaludlhh.h:41:9: note: in expansion of macro ‘typevar’
+   41 |         typevar(charr5);
+      |         ^~~~~~~
+axpaludlhh.h:9:25: error: redeclaration of ‘int <unnamed union>::ab’
+    9 | #define TEMPJOINN(a, b) ab
+      |                         ^~
+axpaludlhh.h:11:22: note: in expansion of macro ‘TEMPJOINN’
+   11 | #define TYPEVAR(x) x TEMPJOINN(x, var)
+      |                      ^~~~~~~~~
+axpaludlhh.h:16:17: note: in expansion of macro ‘TYPEVAR’
+   16 | #define typevar TYPEVAR
+      |                 ^~~~~~~
+axpaludlhh.h:42:9: note: in expansion of macro ‘typevar’
+   42 |         typevar(int);
+      |         ^~~~~~~
+axpaludlhh.h:9:25: note: previous declaration ‘bool <unnamed union>::ab’
+    9 | #define TEMPJOINN(a, b) ab
+      |                         ^~
+axpaludlhh.h:11:22: note: in expansion of macro ‘TEMPJOINN’
+   11 | #define TYPEVAR(x) x TEMPJOINN(x, var)
+      |                      ^~~~~~~~~
+axpaludlhh.h:16:17: note: in expansion of macro ‘TYPEVAR’
+   16 | #define typevar TYPEVAR
+      |                 ^~~~~~~
+axpaludlhh.h:36:9: note: in expansion of macro ‘typevar’
+   36 |         typevar(bool);
+      |         ^~~~~~~
+axpaludlhh.h:9:25: error: redeclaration of ‘float <unnamed union>::ab’
+    9 | #define TEMPJOINN(a, b) ab
+      |                         ^~
+axpaludlhh.h:11:22: note: in expansion of macro ‘TEMPJOINN’
+   11 | #define TYPEVAR(x) x TEMPJOINN(x, var)
+      |                      ^~~~~~~~~
+axpaludlhh.h:16:17: note: in expansion of macro ‘TYPEVAR’
+   16 | #define typevar TYPEVAR
+      |                 ^~~~~~~
+axpaludlhh.h:43:9: note: in expansion of macro ‘typevar’
+   43 |         typevar(float);
+      |         ^~~~~~~
+axpaludlhh.h:9:25: note: previous declaration ‘bool <unnamed union>::ab’
+    9 | #define TEMPJOINN(a, b) ab
+      |                         ^~
+axpaludlhh.h:11:22: note: in expansion of macro ‘TEMPJOINN’
+   11 | #define TYPEVAR(x) x TEMPJOINN(x, var)
+      |                      ^~~~~~~~~
+axpaludlhh.h:16:17: note: in expansion of macro ‘TYPEVAR’
+   16 | #define typevar TYPEVAR
+      |                 ^~~~~~~
+axpaludlhh.h:36:9: note: in expansion of macro ‘typevar’
+   36 |         typevar(bool);
+      |         ^~~~~~~
+axpaludlhh.h:44:17: error: ‘ptr’ does not name a type
+   44 |         typevar(ptr);
+      |                 ^~~
+axpaludlhh.h:11:20: note: in definition of macro ‘TYPEVAR’
+   11 | #define TYPEVAR(x) x TEMPJOINN(x, var)
+      |                    ^
+axpaludlhh.h:44:9: note: in expansion of macro ‘typevar’
+   44 |         typevar(ptr);
+      |         ^~~~~~~
+axpaludlhh.h:65:8: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+   65 | inline charr5 charr2charr5(char*); //this typecast usally used
+      |        ^~~~~~
+      |        charrx
+axpaludlhh.h:75:8: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+   75 | inline charr5 cmder_on_wrapper(int);
+      |        ^~~~~~
+      |        charrx
+axpaludlhh.h:77:8: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+   77 | inline charr5 casevalue(char, char, char, char);
+      |        ^~~~~~
+      |        charrx
+axpaludlhh.h:79:8: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+   79 | inline charr5 casevalue(char, char, char);
+      |        ^~~~~~
+      |        charrx
+axpaludlhh.h:81:8: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+   81 | inline charr5 casevalue(char, char);
+      |        ^~~~~~
+      |        charrx
+axpaludlhh.h:83:8: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+   83 | inline charr5 casevalue(char);
+      |        ^~~~~~
+      |        charrx
+axpaludlhh.h:99:6: error: variable or field ‘gcsf’ declared void
+   99 | void gcsf(ptr, ptr, ptr);
+      |      ^~~~
+axpaludlhh.h:99:11: error: ‘ptr’ was not declared in this scope
+   99 | void gcsf(ptr, ptr, ptr);
+      |           ^~~
+axpaludlhh.h:99:16: error: ‘ptr’ was not declared in this scope
+   99 | void gcsf(ptr, ptr, ptr);
+      |                ^~~
+axpaludlhh.h:99:21: error: ‘ptr’ was not declared in this scope
+   99 | void gcsf(ptr, ptr, ptr);
+      |                     ^~~
+axpaludlhh.h:102:1: error: ‘gcstackv’ does not name a type
+  102 | gcstackv* GCStackBP;
+      | ^~~~~~~~
+axpaludlhh.h:103:1: error: ‘gcstackv’ does not name a type
+  103 | gcstackv* GCStackSP;
+      | ^~~~~~~~
+axpaludlhh.h:104:1: error: ‘gcsftype’ does not name a type
+  104 | gcsftype gcspf;
+      | ^~~~~~~~
+axpaludlhh.h:106:1: error: ‘gcstackv’ does not name a type
+  106 | gcstackv* GCSPush(ptr, ptr, ptr); //chaining
+      | ^~~~~~~~
+axpaludlhh.h:107:1: error: ‘gcstackv’ does not name a type
+  107 | gcstackv* GCSPop(gcsftype); //chaining & func-use
+      | ^~~~~~~~
+axpaludlhh.h:109:8: error: ‘gcstackv’ does not name a type
+  109 | inline gcstackv* GCSPoper(void);
+      |        ^~~~~~~~
+axpaludlh.h:6:1: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+    6 | charr5 empty_charr5 = 0;
+      | ^~~~~~
+      | charrx
+axpaludlh.h:7:5: error: structured binding declaration cannot have type ‘char’
+    7 | char[] empty_char[1] = (char*) empty_charr5;
+      |     ^~
+axpaludlh.h:7:5: note: type must be cv-qualified ‘auto’ or reference to cv-qualified ‘auto’
+axpaludlh.h:7:5: error: empty structured binding declaration
+axpaludlh.h:7:8: error: expected initializer before ‘empty_char’
+    7 | char[] empty_char[1] = (char*) empty_charr5;
+      |        ^~~~~~~~~~
+axpaludlh.h:8:9: error: redefinition of ‘axptype empty_axptype’
+    8 | axptype empty_axptype = 0;
+      |         ^~~~~~~~~~~~~
+axpaludlhh.h:101:9: note: ‘axptype empty_axptype’ previously declared here
+  101 | axptype empty_axptype;
+      |         ^~~~~~~~~~~~~
+axpaludlh.h:9:1: error: ‘gcstackv’ does not name a type
+    9 | gcstackv* GCStackBP = new gcstackv;
+      | ^~~~~~~~
+axpaludlh.h:10:1: error: ‘gcstackv’ does not name a type
+   10 | gcstackv* GCStackSP = &GCStackBP;
+      | ^~~~~~~~
+axpaludlh.h: In function ‘char* typecast_typecharr(int)’:
+axpaludlh.h:16:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   16 |                         return "int";
+      |                                ^~~~~
+axpaludlh.h:18:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   18 |                         return "chr";
+      |                                ^~~~~
+axpaludlh.h:20:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   20 |                         return "chr2";
+      |                                ^~~~~~
+axpaludlh.h:22:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   22 |                         return "chr3";
+      |                                ^~~~~~
+axpaludlh.h:24:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   24 |                         return "chr4";
+      |                                ^~~~~~
+axpaludlh.h:26:32: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   26 |                         return "chr5";
+      |                                ^~~~~~
+axpaludlh.h: At global scope:
+axpaludlh.h:30:1: error: structured binding declaration cannot be ‘inline’
+   30 | inline char[] cmder_on_wrapper_core(int opcode)
+      | ^~~~~~
+axpaludlh.h:30:12: error: structured binding declaration cannot have type ‘char’
+   30 | inline char[] cmder_on_wrapper_core(int opcode)
+      |            ^~
+axpaludlh.h:30:12: note: type must be cv-qualified ‘auto’ or reference to cv-qualified ‘auto’
+axpaludlh.h:30:12: error: empty structured binding declaration
+axpaludlh.h:30:15: error: expected initializer before ‘cmder_on_wrapper_core’
+   30 | inline char[] cmder_on_wrapper_core(int opcode)
+      |               ^~~~~~~~~~~~~~~~~~~~~
+axpaludlh.h:74:8: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+   74 | inline charr5 charr2charr5(char[] charr)
+      |        ^~~~~~
+      |        charrx
+axpaludlh.h:79:1: error: structured binding declaration cannot be ‘inline’
+   79 | inline char[] charr5lengthcharr(char v1, char v2, char v3, char v4)
+      | ^~~~~~
+axpaludlh.h:79:12: error: structured binding declaration cannot have type ‘char’
+   79 | inline char[] charr5lengthcharr(char v1, char v2, char v3, char v4)
+      |            ^~
+axpaludlh.h:79:12: note: type must be cv-qualified ‘auto’ or reference to cv-qualified ‘auto’
+axpaludlh.h:79:12: error: empty structured binding declaration
+axpaludlh.h:79:15: error: expected initializer before ‘charr5lengthcharr’
+   79 | inline char[] charr5lengthcharr(char v1, char v2, char v3, char v4)
+      |               ^~~~~~~~~~~~~~~~~
+axpaludlh.h:89:1: error: structured binding declaration cannot be ‘inline’
+   89 | inline char[] charr5lengthcharr(char v1, char v2, char v3)
+      | ^~~~~~
+axpaludlh.h:89:12: error: structured binding declaration cannot have type ‘char’
+   89 | inline char[] charr5lengthcharr(char v1, char v2, char v3)
+      |            ^~
+axpaludlh.h:89:12: note: type must be cv-qualified ‘auto’ or reference to cv-qualified ‘auto’
+axpaludlh.h:89:12: error: empty structured binding declaration
+axpaludlh.h:89:15: error: expected initializer before ‘charr5lengthcharr’
+   89 | inline char[] charr5lengthcharr(char v1, char v2, char v3)
+      |               ^~~~~~~~~~~~~~~~~
+axpaludlh.h:98:1: error: structured binding declaration cannot be ‘inline’
+   98 | inline char[] charr5lengthcharr(char v1, char v2)
+      | ^~~~~~
+axpaludlh.h:98:12: error: structured binding declaration cannot have type ‘char’
+   98 | inline char[] charr5lengthcharr(char v1, char v2)
+      |            ^~
+axpaludlh.h:98:12: note: type must be cv-qualified ‘auto’ or reference to cv-qualified ‘auto’
+axpaludlh.h:98:12: error: empty structured binding declaration
+axpaludlh.h:98:15: error: expected initializer before ‘charr5lengthcharr’
+   98 | inline char[] charr5lengthcharr(char v1, char v2)
+      |               ^~~~~~~~~~~~~~~~~
+axpaludlh.h:106:1: error: structured binding declaration cannot be ‘inline’
+  106 | inline char[] charr5lengthcharr(char x)
+      | ^~~~~~
+axpaludlh.h:106:12: error: structured binding declaration cannot have type ‘char’
+  106 | inline char[] charr5lengthcharr(char x)
+      |            ^~
+axpaludlh.h:106:12: note: type must be cv-qualified ‘auto’ or reference to cv-qualified ‘auto’
+axpaludlh.h:106:12: error: empty structured binding declaration
+axpaludlh.h:106:15: error: expected initializer before ‘charr5lengthcharr’
+  106 | inline char[] charr5lengthcharr(char x)
+      |               ^~~~~~~~~~~~~~~~~
+axpaludlh.h:112:8: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+  112 | inline charr5 cmder_on_wrapper(int opcode)
+      |        ^~~~~~
+      |        charrx
+axpaludlh.h:117:8: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+  117 | inline charr5 casevalue(char v1, char v2, char v3, char v4)
+      |        ^~~~~~
+      |        charrx
+axpaludlh.h:122:8: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+  122 | inline charr5 casevalue(char v1, char v2, char v3)
+      |        ^~~~~~
+      |        charrx
+axpaludlh.h:127:8: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+  127 | inline charr5 casevalue(char v1, char v2)
+      |        ^~~~~~
+      |        charrx
+axpaludlh.h:132:8: error: ‘charr5’ does not name a type; did you mean ‘charrx’?
+  132 | inline charr5 casevalue(char x)
+      |        ^~~~~~
+      |        charrx
+axpaludlh.h: In function ‘auto wrapper(wrappers_code)’:
+axpaludlh.h:139:42: error: expected unqualified-id before ‘int’
+  139 |         switch (cmder_on_wapper(argv.cmd.int)){
+      |                                          ^~~
+axpaludlh.h:139:17: error: ‘cmder_on_wapper’ was not declared in this scope; did you mean ‘cmder_on_wrapper_core’?
+  139 |         switch (cmder_on_wapper(argv.cmd.int)){
+      |                 ^~~~~~~~~~~~~~~
+      |                 cmder_on_wrapper_core
+axpaludlh.h:140:22: error: ‘casevalue’ was not declared in this scope
+  140 |                 case casevalue('n','e','w'):
+      |                      ^~~~~~~~~
+axpaludlh.h:142:38: error: cannot convert ‘axptype’ to ‘axptype*’ in assignment
+  142 |                         value = argv.x
+      |                                 ~~~~~^
+      |                                      |
+      |                                      axptype
+axpaludlh.h:144:43: error: jump to case label
+  144 |                 case casevalue('d','e','l'):
+      |                                           ^
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:145:51: error: ‘union axptype’ has no member named ‘ptrvar’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                                   ^~~~~~
+axpaludlh.h:147:32: error: ‘null’ was not declared in this scope
+  147 |                         return null;
+      |                                ^~~~
+axpaludlh.h:148:45: error: jump to case label
+  148 |                 case casevalue('c', 'h', 'r'):
+      |                                             ^
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:149:34: error: redeclaration of ‘axptype* target’
+  149 |                         axptype *target = &argv.x.tarvar; //x is pointer bacause list's value
+      |                                  ^~~~~~
+axpaludlh.h:145:34: note: ‘axptype* target’ previously declared here
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:149:51: error: ‘union axptype’ has no member named ‘tarvar’
+  149 |                         axptype *target = &argv.x.tarvar; //x is pointer bacause list's value
+      |                                                   ^~~~~~
+axpaludlh.h:151:29: error: request for member ‘charvar’ in ‘ret’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  151 |                         ret.charvar = &target.charvar; //typecase but use structure
+      |                             ^~~~~~~
+axpaludlh.h:151:47: error: request for member ‘charvar’ in ‘target’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  151 |                         ret.charvar = &target.charvar; //typecase but use structure
+      |                                               ^~~~~~~
+axpaludlh.h:153:45: error: jump to case label
+  153 |                 case casevalue('i', 'n', 't'):
+      |                                             ^
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:154:34: error: redeclaration of ‘axptype* target’
+  154 |                         axptype *target = &argv.x.tarvar; //x is pointer bacause list's value
+      |                                  ^~~~~~
+axpaludlh.h:145:34: note: ‘axptype* target’ previously declared here
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:154:51: error: ‘union axptype’ has no member named ‘tarvar’
+  154 |                         axptype *target = &argv.x.tarvar; //x is pointer bacause list's value
+      |                                                   ^~~~~~
+axpaludlh.h:155:34: error: redeclaration of ‘axptype* ret’
+  155 |                         axptype *ret;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:156:34: error: redeclaration of ‘axptype* ret’
+  156 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:157:29: error: request for member ‘intvar’ in ‘ret’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  157 |                         ret.intvar = target.intvar; //typecase but use structure
+      |                             ^~~~~~
+axpaludlh.h:157:45: error: request for member ‘intvar’ in ‘target’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  157 |                         ret.intvar = target.intvar; //typecase but use structure
+      |                                             ^~~~~~
+axpaludlh.h:159:52: error: jump to case label
+  159 |                 case casevalue('c', 'h', 'r', nc(2)):
+      |                                                    ^
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:160:34: error: redeclaration of ‘axptype* target’
+  160 |                         axptype *target = &argv.x.tarvar; //x is pointer bacause list's value
+      |                                  ^~~~~~
+axpaludlh.h:145:34: note: ‘axptype* target’ previously declared here
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:160:51: error: ‘union axptype’ has no member named ‘tarvar’
+  160 |                         axptype *target = &argv.x.tarvar; //x is pointer bacause list's value
+      |                                                   ^~~~~~
+axpaludlh.h:161:34: error: redeclaration of ‘axptype* ret’
+  161 |                         axptype *ret;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:162:34: error: redeclaration of ‘axptype* ret’
+  162 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:163:29: error: request for member ‘charr2var’ in ‘ret’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  163 |                         ret.charr2var = target.charr2var; //typecase but use structure
+      |                             ^~~~~~~~~
+axpaludlh.h:163:48: error: request for member ‘charr2var’ in ‘target’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  163 |                         ret.charr2var = target.charr2var; //typecase but use structure
+      |                                                ^~~~~~~~~
+axpaludlh.h:165:52: error: jump to case label
+  165 |                 case casevalue('c', 'h', 'r', nc(3)):
+      |                                                    ^
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:166:34: error: redeclaration of ‘axptype* target’
+  166 |                         axptype *target = &argv.x.tarvar; //x is pointer bacause list's value
+      |                                  ^~~~~~
+axpaludlh.h:145:34: note: ‘axptype* target’ previously declared here
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:166:51: error: ‘union axptype’ has no member named ‘tarvar’
+  166 |                         axptype *target = &argv.x.tarvar; //x is pointer bacause list's value
+      |                                                   ^~~~~~
+axpaludlh.h:167:34: error: redeclaration of ‘axptype* ret’
+  167 |                         axptype *ret;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:168:34: error: redeclaration of ‘axptype* ret’
+  168 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:169:29: error: request for member ‘charr3var’ in ‘ret’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  169 |                         ret.charr3var = target.charr3var; //typecase but use structure
+      |                             ^~~~~~~~~
+axpaludlh.h:169:48: error: request for member ‘charr3var’ in ‘target’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  169 |                         ret.charr3var = target.charr3var; //typecase but use structure
+      |                                                ^~~~~~~~~
+axpaludlh.h:171:52: error: jump to case label
+  171 |                 case casevalue('c', 'h', 'r', nc(4)):
+      |                                                    ^
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:172:34: error: redeclaration of ‘axptype* target’
+  172 |                         axptype *target = &argv.x.tarvar; //x is pointer bacause list's value
+      |                                  ^~~~~~
+axpaludlh.h:145:34: note: ‘axptype* target’ previously declared here
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:172:51: error: ‘union axptype’ has no member named ‘tarvar’
+  172 |                         axptype *target = &argv.x.tarvar; //x is pointer bacause list's value
+      |                                                   ^~~~~~
+axpaludlh.h:173:34: error: redeclaration of ‘axptype* ret’
+  173 |                         axptype *ret;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:174:34: error: redeclaration of ‘axptype* ret’
+  174 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:175:29: error: request for member ‘charr4var’ in ‘ret’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  175 |                         ret.charr4var = target.charr4var; //typecase but use structure
+      |                             ^~~~~~~~~
+axpaludlh.h:175:48: error: request for member ‘charr4var’ in ‘target’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  175 |                         ret.charr4var = target.charr4var; //typecase but use structure
+      |                                                ^~~~~~~~~
+axpaludlh.h:177:52: error: jump to case label
+  177 |                 case casevalue('c', 'h', 'r', nc(5)):
+      |                                                    ^
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:178:34: error: redeclaration of ‘axptype* target’
+  178 |                         axptype *target = &argv.x.tarvar; //x is pointer bacause list's value
+      |                                  ^~~~~~
+axpaludlh.h:145:34: note: ‘axptype* target’ previously declared here
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:178:51: error: ‘union axptype’ has no member named ‘tarvar’
+  178 |                         axptype *target = &argv.x.tarvar; //x is pointer bacause list's value
+      |                                                   ^~~~~~
+axpaludlh.h:179:34: error: redeclaration of ‘axptype* ret’
+  179 |                         axptype *ret;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:180:34: error: redeclaration of ‘axptype* ret’
+  180 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:181:29: error: request for member ‘charr5var’ in ‘ret’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  181 |                         ret.charr5var = target.charr5var; //typecase but use structure
+      |                             ^~~~~~~~~
+axpaludlh.h:181:48: error: request for member ‘charr5var’ in ‘target’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  181 |                         ret.charr5var = target.charr5var; //typecase but use structure
+      |                                                ^~~~~~~~~
+axpaludlh.h:183:49: error: jump to case label
+  183 |                 case casevalue(nc(2),'i','n','t'):
+      |                                                 ^
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:184:34: error: redeclaration of ‘axptype* ret’
+  184 |                         axptype *ret;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:185:34: error: redeclaration of ‘axptype* ret’
+  185 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:186:29: error: request for member ‘intvar’ in ‘ret’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  186 |                         ret.intvar = floor(argv.x.floatvar);
+      |                             ^~~~~~
+axpaludlh.h:186:51: error: ‘union axptype’ has no member named ‘floatvar’
+  186 |                         ret.intvar = floor(argv.x.floatvar);
+      |                                                   ^~~~~~~~
+axpaludlh.h:188:45: error: jump to case label
+  188 |                 case casevalue('a', 'd', 'd'):
+      |                                             ^
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:189:34: error: redeclaration of ‘axptype* ret’
+  189 |                         axptype *ret;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:190:34: error: redeclaration of ‘axptype* ret’
+  190 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:191:29: error: request for member ‘intvar’ in ‘ret’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  191 |                         ret.intvar = argv.x.intvar + argv.y.intvar;
+      |                             ^~~~~~
+axpaludlh.h:191:45: error: ‘union axptype’ has no member named ‘intvar’
+  191 |                         ret.intvar = argv.x.intvar + argv.y.intvar;
+      |                                             ^~~~~~
+axpaludlh.h:191:61: error: ‘union axptype’ has no member named ‘intvar’
+  191 |                         ret.intvar = argv.x.intvar + argv.y.intvar;
+      |                                                             ^~~~~~
+axpaludlh.h:193:45: error: jump to case label
+  193 |                 case casevalue('s', 'u', 'b'):
+      |                                             ^
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:194:34: error: redeclaration of ‘axptype* ret’
+  194 |                         axptype *ret;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:195:34: error: redeclaration of ‘axptype* ret’
+  195 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:196:29: error: request for member ‘intvar’ in ‘ret’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  196 |                         ret.intvar = argv.x.intvar - argv.y.intvar;
+      |                             ^~~~~~
+axpaludlh.h:196:45: error: ‘union axptype’ has no member named ‘intvar’
+  196 |                         ret.intvar = argv.x.intvar - argv.y.intvar;
+      |                                             ^~~~~~
+axpaludlh.h:196:61: error: ‘union axptype’ has no member named ‘intvar’
+  196 |                         ret.intvar = argv.x.intvar - argv.y.intvar;
+      |                                                             ^~~~~~
+axpaludlh.h:198:45: error: jump to case label
+  198 |                 case casevalue('m', 'o', 't'):
+      |                                             ^
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:199:34: error: redeclaration of ‘axptype* ret’
+  199 |                         axptype *ret;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:200:34: error: redeclaration of ‘axptype* ret’
+  200 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:201:29: error: request for member ‘intvar’ in ‘ret’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  201 |                         ret.intvar = argv.x.intvar * argv.y.intvar;
+      |                             ^~~~~~
+axpaludlh.h:201:45: error: ‘union axptype’ has no member named ‘intvar’
+  201 |                         ret.intvar = argv.x.intvar * argv.y.intvar;
+      |                                             ^~~~~~
+axpaludlh.h:201:61: error: ‘union axptype’ has no member named ‘intvar’
+  201 |                         ret.intvar = argv.x.intvar * argv.y.intvar;
+      |                                                             ^~~~~~
+axpaludlh.h:203:45: error: jump to case label
+  203 |                 case casevalue('d', 'i', 'v'):
+      |                                             ^
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:204:34: error: redeclaration of ‘axptype* ret’
+  204 |                         axptype *ret;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:205:34: error: redeclaration of ‘axptype* ret’
+  205 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:206:29: error: request for member ‘floatvar’ in ‘ret’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  206 |                         ret.floatvar = argv.x.intvar / argv.y.intvar;
+      |                             ^~~~~~~~
+axpaludlh.h:206:47: error: ‘union axptype’ has no member named ‘intvar’
+  206 |                         ret.floatvar = argv.x.intvar / argv.y.intvar;
+      |                                               ^~~~~~
+axpaludlh.h:206:63: error: ‘union axptype’ has no member named ‘intvar’
+  206 |                         ret.floatvar = argv.x.intvar / argv.y.intvar;
+      |                                                               ^~~~~~
+axpaludlh.h:208:45: error: jump to case label
+  208 |                 case casevalue('m', 'o', 'd'):
+      |                                             ^
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:209:34: error: redeclaration of ‘axptype* ret’
+  209 |                         axptype *ret;
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:210:34: error: redeclaration of ‘axptype* ret’
+  210 |                         axptype *ret = new axptype[1];
+      |                                  ^~~
+axpaludlh.h:150:34: note: ‘axptype* ret’ previously declared here
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:211:29: error: request for member ‘intvar’ in ‘ret’, which is of pointer type ‘axptype*’ (maybe you meant to use ‘->’ ?)
+  211 |                         ret.intvar = argv.x.intvar  % argv.y.intvar;
+      |                             ^~~~~~
+axpaludlh.h:211:45: error: ‘union axptype’ has no member named ‘intvar’
+  211 |                         ret.intvar = argv.x.intvar  % argv.y.intvar;
+      |                                             ^~~~~~
+axpaludlh.h:211:62: error: ‘union axptype’ has no member named ‘intvar’
+  211 |                         ret.intvar = argv.x.intvar  % argv.y.intvar;
+      |                                                              ^~~~~~
+axpaludlh.h:213:50: error: jump to case label
+  213 |                 case casevalue('c', 'o', 'd', 'f'): //code first
+      |                                                  ^
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:215:39: error: expected ‘;’ before ‘x’
+  215 |                         x.cmd = argv.x
+      |                                       ^
+      |                                       ;
+  216 |                         x.option = argv.y
+      |                         ~              
+axpaludlh.h:218:50: error: jump to case label
+  218 |                 case casevalue('c', 'o', 'd', 'l'): //code last
+      |                                                  ^
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:219:30: error: redeclaration of ‘code x’
+  219 |                         code x;
+      |                              ^
+axpaludlh.h:214:30: note: ‘code x’ previously declared here
+  214 |                         code x;
+      |                              ^
+axpaludlh.h:220:37: error: expected ‘;’ before ‘x’
+  220 |                         x.x = argv.x
+      |                                     ^
+      |                                     ;
+  221 |                         x.y = argv.y
+      |                         ~            
+axpaludlh.h:223:22: error: ‘_’ was not declared in this scope
+  223 |                 case _:
+      |                      ^
+axpaludlh.h:223:22: error: jump to case label
+axpaludlh.h:150:34: note:   crosses initialization of ‘axptype* ret’
+  150 |                         axptype *ret = new axptype;
+      |                                  ^~~
+axpaludlh.h:145:34: note:   crosses initialization of ‘axptype* target’
+  145 |                         axptype *target = &argv.x.ptrvar;
+      |                                  ^~~~~~
+axpaludlh.h:141:34: note:   crosses initialization of ‘axptype* value’
+  141 |                         axptype* value = new axptype;
+      |                                  ^~~~~
+axpaludlh.h:224:25: error: ‘is_opcode_command_is_exist’ was not declared in this scope
+  224 |                         is_opcode_command_is_exist = false;
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+axpaludlh.h: In function ‘size_t typelengths(bool)’:
+axpaludlh.h:232:13: error: ‘defdtypeN_is_code_not_types’ was not declared in this scope; did you mean ‘defdtypeN_is_code_not_ptr’?
+  232 |         if (defdtypeN_is_code_not_types) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |             defdtypeN_is_code_not_ptr
+axpaludlh.h:235:31: error: ‘ptr’ was not declared in this scope
+  235 |                 return sizeof(ptr);
+      |                               ^~~
+axpaludlh.h: At global scope:
+axpaludlh.h:239:6: error: variable or field ‘gcsf’ declared void
+  239 | void gcsf(ptr a, ptr b, ptr c)
+      |      ^~~~
+axpaludlh.h:239:11: error: ‘ptr’ was not declared in this scope
+  239 | void gcsf(ptr a, ptr b, ptr c)
+      |           ^~~
+axpaludlh.h:239:18: error: ‘ptr’ was not declared in this scope
+  239 | void gcsf(ptr a, ptr b, ptr c)
+      |                  ^~~
+axpaludlh.h:239:25: error: ‘ptr’ was not declared in this scope
+  239 | void gcsf(ptr a, ptr b, ptr c)
+      |                         ^~~
+axpaludlh.h:249:1: error: ‘gcsftype’ does not name a type
+  249 | gcsftype gcspf = (gcsftype) gcsf;
+      | ^~~~~~~~
+axpaludlh.h:251:1: error: ‘gcstackv’ does not name a type
+  251 | gcstackv* GCSPush(ptr a, ptr b, ptr c)
+      | ^~~~~~~~
+axpaludlh.h:261:1: error: ‘gcstackv’ does not name a type
+  261 | gcstackv* GCSPop(gcsftype f)
+      | ^~~~~~~~
+axpaludlh.h:269:8: error: ‘gcstackv’ does not name a type
+  269 | inline gcstackv* GCSPoper(void)
+      |        ^~~~~~~~
+axpaludlh.h: In function ‘wrappers_code new_wrapper_code(int, axptype*, axptype*)’:
+axpaludlh.h:277:14: error: ‘union axptype’ has no member named ‘intvar’
+  277 |         cmds.intvar = cmd;
+      |              ^~~~~~
+axpaludlh.h:279:13: error: request for member ‘cmd’ in ‘ret’, which is of pointer type ‘wrappers_code*’ (maybe you meant to use ‘->’ ?)
+  279 |         ret.cmd = cmds;
+      |             ^~~
+axpaludlh.h:280:13: error: request for member ‘x’ in ‘ret’, which is of pointer type ‘wrappers_code*’ (maybe you meant to use ‘->’ ?)
+  280 |         ret.x = &x;
+      |             ^
+axpaludlh.h:281:13: error: request for member ‘y’ in ‘ret’, which is of pointer type ‘wrappers_code*’ (maybe you meant to use ‘->’ ?)
+  281 |         ret.y = &y;
+      |             ^
+axpaludlh.h:282:18: error: ‘ptr’ was not declared in this scope
+  282 |         GCSPush((ptr) &ret, (ptr) &x, (ptr) &y);
+      |                  ^~~
+axpaludlh.h:282:9: error: ‘GCSPush’ was not declared in this scope
+  282 |         GCSPush((ptr) &ret, (ptr) &x, (ptr) &y);
+      |         ^~~~~~~
+axpaludlh.h:283:16: error: could not convert ‘ret’ from ‘wrappers_code*’ to ‘wrappers_code’
+  283 |         return ret;
+      |                ^~~
+      |                |
+      |                wrappers_code*
+axpaludlh.h: In function ‘auto use_wrapped_code(int, axptype, axptype)’:
+axpaludlh.h:290:18: error: redeclaration of ‘axptype* x2’
+  290 |         axptype* x2 = x;
+      |                  ^~
+axpaludlh.h:288:18: note: ‘axptype* x2’ previously declared here
+  288 |         axptype* x2 = new axptype;
+      |                  ^~
+axpaludlh.h:291:18: error: redeclaration of ‘axptype* y2’
+  291 |         axptype* y2 = y;
+      |                  ^~
+axpaludlh.h:289:18: note: ‘axptype* y2’ previously declared here
+  289 |         axptype* y2 = new axptype;
+      |                  ^~
+axpaludlh.h: In function ‘auto use_wrapped_code_with_gc(int, axptype, axptype)’:
+axpaludlh.h:298:9: error: ‘GCSPoper’ was not declared in this scope
+  298 |         GCSPoper();
+      |         ^~~~~~~~
+axpaludlh.h: In function ‘auto use_wrapped_code_with_gc(int, axptype)’:
+axpaludlh.h:304:45: error: could not convert ‘0’ from ‘int’ to ‘axptype’
+  304 |         auto ret = use_wrapped_code(cmd, x, 0);
+      |                                             ^
+      |                                             |
+      |                                             int
+axpaludlh.h: In function ‘auto alus(code)’:
+axpaludlh.h:309:24: error: ‘union axptype’ has no member named ‘cmd’
+  309 |         switch (argv.x.cmd) {
+      |                        ^~~
+axpaludlh.h:311:28: error: expected ‘(’ before ‘argv’
+  311 |                         if argv.option.bool{
+      |                            ^~~~
+      |                            (
+axpaludlhh.h:14:14: error: ‘else’ without a previous ‘if’
+   14 | #define ELIF else if
+      |              ^~~~
+axpaludlhh.h:19:14: note: in expansion of macro ‘ELIF’
+   19 | #define elif ELIF
+      |              ^~~~
+axpaludlh.h:331:27: note: in expansion of macro ‘elif’
+  331 |                         } elif (argv.x.bool) {
+      |                           ^~~~
+axpaludlh.h:331:40: error: expected unqualified-id before ‘bool’
+  331 |                         } elif (argv.x.bool) {
+      |                                        ^~~~
+axpaludlh.h:331:40: error: expected ‘)’ before ‘bool’
+  331 |                         } elif (argv.x.bool) {
+      |                                ~       ^~~~
+      |                                        )
+axpaludlh.h:337:41: error: expected unqualified-id before ‘bool’
+  337 |                         if (argv.option.bool) {
+      |                                         ^~~~
+axpaludlh.h:337:41: error: expected ‘)’ before ‘bool’
+  337 |                         if (argv.option.bool) {
+      |                            ~            ^~~~
+      |                                         )
+axpaludlh.h:343:56: error: inconsistent deduction for auto return type: ‘void’ and then ‘axptype*’
+  343 |                         return use_wrapped_code_with_gc(0xA, argv.x, argv.y);
+      |                                ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+axpaludlh.h:343:56: error: return-statement with a value, in function returning ‘void’ [-fpermissive]
+axpaludlh.h:345:56: error: inconsistent deduction for auto return type: ‘void’ and then ‘axptype*’
+  345 |                         return use_wrapped_code_with_gc(0xB, argv.x, argv.y);
+      |                                ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+axpaludlh.h:345:56: error: return-statement with a value, in function returning ‘void’ [-fpermissive]
+axpaludlh.h:347:56: error: inconsistent deduction for auto return type: ‘void’ and then ‘axptype*’
+  347 |                         return use_wrapped_code_with_gc(0xC, argv.x, argv.y);
+      |                                ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+axpaludlh.h:347:56: error: return-statement with a value, in function returning ‘void’ [-fpermissive]
+axpaludlh.h:349:56: error: inconsistent deduction for auto return type: ‘void’ and then ‘axptype*’
+  349 |                         return use_wrapped_code_with_gc(0xD, argv.x, argv.y);
+      |                                ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+axpaludlh.h:349:56: error: return-statement with a value, in function returning ‘void’ [-fpermissive]
+axpaludlh.h:351:56: error: inconsistent deduction for auto return type: ‘void’ and then ‘axptype*’
+  351 |                         return use_wrapped_code_with_gc(0xE, argv.x, argv.y);
+      |                                ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+axpaludlh.h:351:56: error: return-statement with a value, in function returning ‘void’ [-fpermissive]
+axpaludlh.h:354:22: error: ‘_’ was not declared in this scope
+  354 |                 case _:
+      |                      ^
+axpaludlh.h:355:25: error: ‘CommandNotFoundError’ was not declared in this scope
+  355 |                         CommandNotFoundError = 0; //raise CommandNotFoundError
+      |                         ^~~~~~~~~~~~~~~~~~~~
+aludll.h: At global scope:
+aludll.h:14:1: error: declaration of ‘auto ret’ has no initializer
+   14 | auto ret;
+      | ^~~~
+aludll.h:19:19: error: ‘ptr’ was not declared in this scope
+   19 | bool axpalucore_0(ptr, ptr, ptr, ptr);
+      |                   ^~~
+aludll.h:19:24: error: ‘ptr’ was not declared in this scope
+   19 | bool axpalucore_0(ptr, ptr, ptr, ptr);
+      |                        ^~~
+aludll.h:19:29: error: ‘ptr’ was not declared in this scope
+   19 | bool axpalucore_0(ptr, ptr, ptr, ptr);
+      |                             ^~~
+aludll.h:19:34: error: ‘ptr’ was not declared in this scope
+   19 | bool axpalucore_0(ptr, ptr, ptr, ptr);
+      |                                  ^~~
+aludll.h:19:37: error: expression list treated as compound expression in initializer [-fpermissive]
+   19 | bool axpalucore_0(ptr, ptr, ptr, ptr);
+      |                                     ^
+aludll.cpp:3:8: error: redefinition of ‘size_t cnt’
+    3 | size_t cnt = 0;
+      |        ^~~
+aludll.h:15:8: note: ‘size_t cnt’ previously declared here
+   15 | size_t cnt;
+      |        ^~~
+aludll.cpp: In function ‘bool rettype()’:
+aludll.cpp:7:23: error: ‘ptr’ was not declared in this scope
+    7 |         return sizeof(ptr) > 40;
+      |                       ^~~
+aludll.cpp: In function ‘auto axpalucore_arr(bool)’:
+aludll.cpp:17:34: error: expected ‘;’ before ‘}’ token
+   17 |                 return ret[cnt++]
+      |                                  ^
+      |                                  ;
+   18 |         }
+      |         ~                         
+aludll.cpp: At global scope:
+aludll.cpp:21:6: error: redefinition of ‘bool axpalucore_0’
+   21 | bool axpalucore_0(ptr a, ptr b, ptr c, ptr d)
+      |      ^~~~~~~~~~~~
+aludll.h:19:6: note: ‘bool axpalucore_0’ previously defined here
+   19 | bool axpalucore_0(ptr, ptr, ptr, ptr);
+      |      ^~~~~~~~~~~~
+aludll.cpp:21:19: error: ‘ptr’ was not declared in this scope
+   21 | bool axpalucore_0(ptr a, ptr b, ptr c, ptr d)
+      |                   ^~~
+aludll.cpp:21:26: error: ‘ptr’ was not declared in this scope
+   21 | bool axpalucore_0(ptr a, ptr b, ptr c, ptr d)
+      |                          ^~~
+aludll.cpp:21:33: error: ‘ptr’ was not declared in this scope
+   21 | bool axpalucore_0(ptr a, ptr b, ptr c, ptr d)
+      |                                 ^~~
+aludll.cpp:21:40: error: ‘ptr’ was not declared in this scope
+   21 | bool axpalucore_0(ptr a, ptr b, ptr c, ptr d)
+      |                                        ^~~
+aludll.cpp: In function ‘bool axpalucore_1(char, char, char, char, char, char, char, char, char, char, char, char, char, char, char, char, char, char, char, char)’:
+aludll.cpp:41:14: error: ‘void ret’ has incomplete type
+   41 |         auto ret = alus(x);
+      |              ^~~
+aludll.cpp:64:9: error: expected ‘,’ or ‘;’ before ‘for’
+   64 |         for (char i :: v) {
+      |         ^~~
+aludll.cpp:76:13: error: ‘a’ was not declared in this scope
+   76 |         if (a == 8 || a == 9) {
+      |             ^
+aludll.cpp:81:1: warning: control reaches end of non-void function [-Wreturn-type]
+   81 | }
+      | ^
