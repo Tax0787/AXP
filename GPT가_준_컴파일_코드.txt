@@ -1,1 +1,1 @@
-g++ -shared -fPIC -o aludll.h aludll.cpp
+g++ -shared -fPIC -o aludll.h aludll.cpp | compile_test
