@@ -80,6 +80,7 @@ bool axpalucore_1(char v1, char v2, char v3, char v4, char v5, char v6, char v7,
 	};
 }
 
+/*
 void initaludll()
 {
 		PyObject* m;
@@ -88,3 +89,4 @@ void initaludll()
 
 		ErrorObject = Py_BuildValue("s", "error");
 }
+*/
